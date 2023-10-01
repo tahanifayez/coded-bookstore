@@ -1,24 +1,12 @@
-import logo from "./logo.svg";
+//import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <h1>Test</h1>
-      </header>
+      <h1>Life..</h1>
+      <h2>Reading a book adds another life to your life.</h2>
+      <img src="https://cdn.al-ain.com/images/2019/3/20/153-041534-house-wisdom-scientific-intellectual-center_700x400.jpeg"></img>
     </div>
   );
 }
